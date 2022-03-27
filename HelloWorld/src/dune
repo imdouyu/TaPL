@@ -1,0 +1,6 @@
+(executable
+ (public_name test_hello_world))
+
+(env
+  (dev
+    (flags (:standard -warn-error -A))))
